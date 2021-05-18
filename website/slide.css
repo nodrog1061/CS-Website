@@ -13,8 +13,8 @@
 }
 
 img.mySlidesImg{
-    height: 500px; /* height of container */
-    object-fit: cover;
+  height: 600px; /* height of container */
+  object-fit: cover;
 	object-position: 50% 50%;
 }
 

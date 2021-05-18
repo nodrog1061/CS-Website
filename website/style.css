@@ -95,7 +95,7 @@ a.bar-right{
 	height: 60px;
 }
 
-h1.main-gradient-text{
+.main-gradient-text{
 	background: linear-gradient(to right, #FAC300, #00A7A5);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -115,3 +115,11 @@ h1.main-gradient-text{
     position: absolute;
     left: 0px;
 }
+
+img.staff{
+	border-radius: 0px 100px 0px 0px;
+  }
+  
+div.staff{
+	border-radius: 0px 0px 100px 0px;
+  }
