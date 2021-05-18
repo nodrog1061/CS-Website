@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+
+	<script src="https://kit.fontawesome.com/2288579c21.js" crossorigin="anonymous"></script>
+
+
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
+	
+<title>Nvidia - Home</title>
+
+	<style>
+		/* Extra small devices (portrait phones, less than 576px) */
+		@media (max-width: 575.98px) {
+			polygon.bar-left {
+				transform: rotate(90deg);
+			}
+
+			polygon.bar-right {
+				transform: rotate(90deg);
+			}
+			
+			.nav-image{
+				height: 30px;
+			}
+			img.mySlidesImg{
+				height: 200px; /* height of container */
+			}
+			
+		}
+
+		/* Small devices (landscape phones, less than 768px)*/
+		@media (max-width: 767.98px) {
+			...
+		}
+
+		/* Medium devices (tablets, less than 992px)*/
+		@media (max-width: 991.98px) {
+			...
+		}
+
+		/* Large devices (desktops, less than 1200px)*/
+		@media (max-width: 1199.98px) {
+			.bar-left{
+		}
+
+		/* Extra large devices (large desktops)*/
+		/* No media query since the extra-large breakpoint has no upper bound on its width*/
+	</style>
+</head>
+<body style="background: #FFFFFF;">
+
+	<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top main-gradient drop-shadow-main-gradient">
+		<!-- Brand -->
+		<a class="navbar-brand" href="index.html"><img src="SVG/RDUTC-Logo-crop.svg" class="nav-image"></a>
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<!-- Links -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link text-light" href="index.html#aboutus">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-light" href="gforce.html">Gforce</a>
+				</li>
+
+				<!-- Dropdown
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						Dropdown link
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+				</li>
+			-->
+		</div>
+		</ul>
+	</nav>
+	<br>
+	<!--<div class="container-fluid">-->
+	<div class="row w-auto" style="background: #0E0F09; padding-right: 0px !important; padding-left: 0px !important;">
+		<div class="col-sm" style="padding-right: 0px !important; padding-left: 0px !important;">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760.5 1079">
+				<polygon class="bar-left" points="0 0 0 1079 760.5 1079 570.23 0 0 0" />
+				</g>
+				</g></svg>
+			<div class="d-flex h-100 justify-content-center align-items-center position-relative text-center"
+				style="transform: translate(0%, -100%);">
+				<h1 class="position-absolute display-3" style="color:#00A7A5;">About Us <br /><a class="btn btn-primary btn-lg bar-left" href="#aboutus" role="button" >More Info</a></h1>
+			</div>
+		</div>
+		<div class="col-sm" style="padding-right: 0px !important; padding-left: 0px !important;">
+			<div class="d-flex h-100 justify-content-center align-items-center mh-100 text-center">
+				<h1 class="display-3 main-gradient-text">For Industry<br> <a class="btn btn-primary btn-lg main-gradient" style="cursor: not-allowed; -webkit-text-fill-color: white;" disabled>More Info</a> </h1>
+			</div>
+		</div>
+		<div class="col-sm" style="padding-right: 0px !important; padding-left: 0px !important;">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760.5 1079">
+				<polygon class="bar-right" points="760.5 1079 760.5 0 0 0 190.27 1079 760.5 1079" />
+				</g>
+				</g></svg>
+			<div class="d-flex h-100 justify-content-center align-items-center position-relative text-center"
+				style="transform: translate(0%, -100%);">
+				<h1 class="position-absolute display-3" style="color:#FAC300;">For Gamers<br /><a class="btn btn-primary btn-lg bar-right" href="gforce.html" role="button">More Info</a></h1>
+			</div>
+		</div>
+	</div>
+	<!--</div>-->
+
+	<div class="jumbotron jumbotron-fluid main-gradient" id="aboutus">
+		<div class="container ">
+			<h1 class="display-4 text-uppercase font-weight-bold text-light bll">A UNIQUE APPROACH TO EDUCATION FOR 14-18 YEAR OLDS</h1>
+			<hr class="my-4">
+			<p class="text-light font-weight-light"><strong>RDUTC</strong> is a school that means business. We are situated in the centre of Hull, next to Hull New Theatre. Working in partnership with the University of Hull and the region’s leading employers, we provide our students with a unique, employer-led education that gives them the edge in terms of higher education and employment opportunities and fast-tracks them into exciting and lucrative careers.</p>
+		</div>
+	</div>
+
+	<!-- Container for the image gallery -->
+	<div class="containerSlide">
+		
+			  <!-- Thumbnail images -->
+	  <div class="row align-items-start">
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/Kcom_logo.svg" style="width:100%; color: white" onclick="currentSlide(1)" alt="The Woods">
+		</div>
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/RB_logo.svg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+		</div>
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/spencer-logo-colour.svg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+		</div>
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/Smith_nephew.svg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+		</div>
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/University_of_Hull_logo.svg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+		</div>
+		<div class="col align-self-center">
+		  <img class="demo cursor" src="SVG/Fujitsu-Logo.svg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+		</div>
+	  </div>
+
+	  <!-- Full-width images with number text -->
+	  <div class="mySlides">
+		<div class="numbertext">1 / 6</div>
+					<img src="https://www.rondearingutc.com/wp-content/uploads/2018/11/Spencer-Swing-Bridge-675x530.jpg" class="w-100 mySlidesImg">
+		 </div>
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">2 / 6</div>
+		  <div class="container-fluid">
+		  	<div class="row">
+			  	<div class="col-8">
+					<img src="https://www.rondearingutc.com/wp-content/uploads/2018/11/Spencer-Swing-Bridge-675x530.jpg" class="w-100 mySlidesImg">
+				</div>
+				<div class="col-4">
+					<img src="images/thumbnail_processed.jpg" class="w-100 mySlidesImg">
+				</div>
+			</div>
+		  </div>
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">3 / 6</div>
+		  <img src="img_mountains_wide.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">4 / 6</div>
+		  <img src="img_lights_wide.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 6</div>
+		  <img src="img_nature_wide.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">6 / 6</div>
+		  <img src="img_snow_wide.jpg" style="width:100%">
+	  </div>
+		
+		<div class="slideBut main-gradient container>
+		  <!-- Next and previous buttons -->
+		  <a onclick="plusSlides(-1)">&#10094;</a>
+		  <a onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>
+
+	<div id='map' style='width: 400px; height: 300px;'></div>
+	<script src="map.js"></script>
+	<script src="slide.js"></script>
+
+
+</body>
+
+</html>

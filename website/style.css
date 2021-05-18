@@ -1,0 +1,117 @@
+html {
+	--scrollbarBG: #343A40;
+	--thumbBG: #76B900;
+  }
+  body::-webkit-scrollbar {
+	width: 11px;
+	padding-top: 70px;
+  }
+  body {
+	scrollbar-width: thin;
+	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+	background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+	background-color: var(--thumbBG) ;
+	border-radius: 6px;
+	border: 3px solid var(--scrollbarBG);
+}
+  
+
+
+
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#triangle-topright {
+	width: 100;
+	height: 100;
+	border-top: 100px solid red;
+	border-left: 100px solid transparent;
+}
+
+polygon.bar-left{
+	fill:#FAC300;
+	transform-origin: 50% 50%;
+	float: left;
+	z-index: 1;
+}
+polygon.bar-left-spacer{
+	fill:#ffffff00;
+	transform-origin: 50% 50%;
+	float: left;
+	z-index: 1;
+}
+a.bar-left{
+	background-color:#00A7A5;
+	border-color: #00A7A5;
+	color: #343A40;
+	z-index: 2;
+}
+polygon.bar-right{
+	fill:#00A7A5;
+	transform-origin: 50% 50%;
+	float: right;
+	z-index: 1;
+}
+svg.bar-right{
+	fill:#00A7A5;
+	transform-origin: 50% 50%;
+	float: right;
+	z-index: 1;
+}
+polygon.bar-right-spacer{
+	fill:#ffffff00;
+	transform-origin: 50% 50%;
+	float: right;
+	z-index: 1;
+}
+a.bar-right{
+	background-color:#FAC300;
+	border-color: #FAC300;
+	z-index: 2;
+}
+
+.store-mid{
+	transform: translate(100%, 0%);
+}
+
+.main-gradient{
+	background-image: linear-gradient(to right, #FAC300 , #00A7A5);
+	background-color:#71B47D;
+	border-color: #71B47D;
+}
+
+.drop-shadow-main-gradient{
+	filter: drop-shadow(0 0 0.75rem white);
+}
+
+.nav-image{
+	height: 60px;
+}
+
+h1.main-gradient-text{
+	background: linear-gradient(to right, #FAC300, #00A7A5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bll {
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.bll:before {
+    width: 5px;
+    height: 100%;
+    content: "";
+    background: #FFFFFF;
+    position: absolute;
+    left: 0px;
+}
