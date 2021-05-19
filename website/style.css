@@ -87,6 +87,10 @@ a.bar-right{
 	border-color: #71B47D;
 }
 
+a.main-gradient:hover{
+	background-image: linear-gradient(to right, #00A7A5 ,#00A7A5)
+}
+
 .drop-shadow-main-gradient{
 	filter: drop-shadow(0 0 0.75rem white);
 }
@@ -100,6 +104,17 @@ a.bar-right{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.main-gradient-border{
+	border: medium;
+    border-radius: 0px 50px 0px 0px;
+    box-sizing: border-box;
+    background: #fff;
+    background-image: linear-gradient( #ff8a00,#ccc);
+    padding: 4px;
+	background-clip: padding-box, border-box;
+}
+
 
 .bll {
     position: relative;
