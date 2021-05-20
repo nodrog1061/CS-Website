@@ -137,4 +137,28 @@ img.staff{
   
 div.staff{
 	border-radius: 0px 0px 100px 0px;
-  }
+}
+
+.shop-btn{
+	text-decoration: none !important;
+	color: white;
+	background-color: #00A7A5;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.shop-btn:hover{
+	background-color: white;
+	background: linear-gradient(to right, #FAC300, #00A7A5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.shop-img{
+	text-decoration: none !important;
+	background-color: #FAC300;
+}
+.shop-img:hover{
+	color: white;
+	background-color: white;
+}
